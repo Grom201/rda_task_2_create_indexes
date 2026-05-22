@@ -9,5 +9,4 @@ CREATE INDEX Amount On Products (WarehouseAmount);
 CREATE INDEX Date ON Orders (Date);
 CREATE INDEX CustomerID on Orders (CustomerID);
 CREATE INDEX OrderID ON OrderItems (OrderID);
-CREATE INDEX ProductID ON OrderItems (ProductID);
 
